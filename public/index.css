@@ -1,15 +1,23 @@
 body {
-    /* background-color: blue; */
+    background-color: blue;
     height:100vh;
     width: 100vw;
     margin:0;
 }
 
-#app {
+#root {
     height:100%;
+    width:100%;
+    /* display: flex;
+    justify-content: center; */
+   
   
 }
 
 #main {
+    height:100%;
     background-color: pink;
+}
+.navbar {
+   background-color: blueviolet;
 }

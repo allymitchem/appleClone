@@ -7,11 +7,14 @@
     "start-dev": "NODE_ENV='development' react-scripts start",
     "start": "react-scripts start"
   },
-  
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.19.0",
     "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   },
   "browserslist": {
     "production": [
